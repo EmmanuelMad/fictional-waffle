@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: chocolate; */
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    /* background-color: green; */
+}
+.section{
+    height: 60px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: darkred; */
+}
+.principal{
+    width: 230px;
+    height: 30px;
+}
+.rate{
+    width: 230px;
+    height: 30px;
+}
+.time{
+    width: 230px;
+    height: 30px;
+}
+.calc_btn{
+    border-style: dashed;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}

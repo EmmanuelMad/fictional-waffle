@@ -1,0 +1,76 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width : 100vw;
+    height : 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+
+.car_list{
+    width: 20vw;
+    height: 46vh;
+    background-color: blueviolet;
+}
+.brand{
+    width: 100%;
+    height: 5%;
+    margin-top: 7.5px;
+    border-radius: 4px;
+    padding: 6px;
+    color:snow
+}
+
+.brand_input, .color_input, .licnc_plate_input{
+    border: 2px solid green;
+}
+
+.color{
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 7.5px;
+    padding: 6px;
+    color: whitesmoke;
+}
+
+.licnc_plate{
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 7.5px;
+    padding: 6px;
+    color: white;
+}
+
+.cnfrm{
+    border-radius: 10px;
+    align-content: center;
+    padding: 7px;
+    cursor: pointer;
+}
+.btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.car_list_wrapper{
+    margin-top: 30px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
